@@ -1,7 +1,5 @@
-public class Lesson {
-    
-    private String InstructorName;
 
+public class Lesson implements Course{
     @Override
     public void showDetails()
     {
